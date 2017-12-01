@@ -12,7 +12,7 @@ function init() {
     if (key === code[index]) {
       index++;
       if (index === code.length) {
-        //console.log("should be saying hurray");
+        console.log("should be saying hurray");
         alert('Hurray!');
         index = 0;
       }
