@@ -5,7 +5,7 @@ let index = 0
 function init() {
   document.body.addEventListener('keydown', function(event) {
     //alert('yo');
-    //console.log(parseInt(event.detail || event.which));
+    console.log(parseInt(event.detail || event.which));
     //console.log(code.length);
     //console.log(index);
     var key = parseInt(event.detail || event.which);
@@ -13,8 +13,8 @@ function init() {
       index++;
       if (index === code.length) {
         //console.log("should be saying hurray");
-        index = 0;
         alert('Hurray!');
+        index = 0;
       }
     }
     else {
